@@ -49,6 +49,7 @@ def train(args, train_data_loader, val_data_loader, model):
         val_total = 0
 
 
+
         pbar2 = tqdm(val_data_loader)
         with torch.no_grad():
             for j, (images, labels) in enumerate(pbar2):
