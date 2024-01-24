@@ -3,6 +3,7 @@ import torch.nn as nn
 from torchvision import models
 
 
+
 class BaseModel(nn.Module):
     def __init__(self):
         super(BaseModel, self).__init__()
